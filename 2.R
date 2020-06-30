@@ -1,6 +1,6 @@
 library(dplyr)
 
-# A)
+
 cortax <- read.csv("P02_Corporate tax.csv")
 
 #Equation 1
