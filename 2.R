@@ -1,6 +1,5 @@
 library(dplyr)
 
-
 cortax <- read.csv("P02_Corporate tax.csv")
 
 #Equation 1
@@ -201,4 +200,4 @@ chciprob09=head(arrange(final,popgr), n=20)
 chcitop20=rbind(chciprob01, NA,chciprob02,NA,chciprob06,NA,chciprob07,NA,chciprob03,
                NA,chciprob04,NA,chciprob05,NA,chciprob08,NA,chciprob09)
 
-write.csv(chcitop20, file = "Project2a.csv")
+write.csv(chcitop20, file = "2a.csv")
